@@ -6,10 +6,11 @@
 
 ### 注意：
 
-1. 请确认安装库“DigitLedDisplay”。
-2. 本程序配合aida64使用，通过COM口进行通讯，使用前请确认设备的COM端口。
-3. 本程序使用Arduino开发，支持多种硬件平台，需使用ArduinoIDE下载使用。
-4. 请先使用ArduinoIDE下载程序，后设置aida64，避免因aida64占用端口导致Arduino下载失败
+1. 适用于MAX7219驱动的8位7段数码管，可串联。
+2. 请确认安装库“DigitLedDisplay”。
+3. 本程序配合aida64使用，通过COM口进行通讯，使用前请确认设备的COM端口。
+4. 本程序使用Arduino开发，支持多种硬件平台，需使用ArduinoIDE下载使用。
+5. 请先使用ArduinoIDE下载程序，后设置aida64，避免因aida64占用端口导致Arduino下载失败
 
 ### 设置：
 
