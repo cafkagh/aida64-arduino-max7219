@@ -1,15 +1,15 @@
 #include <Arduino.h>    
 #include "LedControl.h"    
 // 配置项    
-int modules = 2; //模块数    
-int fi_ms = 500; //帧间隔 毫秒    
-int reversed = 1; // 0不反转 1 翻转    
-int wait_ms = 5000; //数据超时提示 毫秒    
-int brightness = 1; //亮度   
+const modules = 2; //模块数    
+const fi_ms = 500; //帧间隔 毫秒    
+const reversed = 1; // 0不反转 1 翻转    
+const wait_ms = 5000; //数据超时提示 毫秒    
+const brightness = 1; //亮度   
 
-int DIN = 2;
-int CS = 4;
-int CLK = 3;
+const DIN = 2;
+const CS = 4;
+const CLK = 3;
 LedControl lc = LedControl(DIN, CS, CLK, modules);
 
 int i = 0;
@@ -34,7 +34,7 @@ int find(char ar[], int n, char element){
     for (i = 0; i <n; i++){
         if (element ==ar[i]){
             index=i;
-			break;
+            break;
         }
     }
     return index;
